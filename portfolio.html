@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web xd</title>
+
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="CSS/site.css">
+    
+    <!-- css.gg -->
+    <link href='https://css.gg/css' rel='stylesheet'>
+    
+    <!-- UNPKG -->
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+    
+    <!-- JSDelivr -->
+    <link href='https://cdn.jsdelivr.net/npm/css.gg/icons/all.css' rel='stylesheet'>
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="css/avatar-195x195.jpg" id="photo-profile" class="my-photo">
+
+                <div>
+                    <h1 class="title">Jose Ramon Tapia Gott</h1>
+                    <div class="badge-profile">Alumno</div>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="https://x.com/" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <<div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;12 de Marzo del 2004</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;<a href="mailto:spiderxtrem1@hotmail.com">utp01552691@alumno.utpuebla.edu.mx</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;+52 22-22-22-22-22    </li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;+52 22-22-18-43-68</li>
+                    </ul>
+                    <a href="media/cv.pdf" class="btn">Descargar CV</a>
+                </div>   
+            </div>
+        </aside>
+        <section class="resume">
+            <div>
+                <h2 class="title bordered">Portafolio</h2>
+                <div class="portfolio">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3L2yZ8Vs4wdswskTzSPkOzHJVPkwOl-7Azg&s" alt="" onclick="showImage(this)">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_805223-CBT72584401011_102023-O.webp" alt="" onclick="showImage(this)">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Seehund11cele4_edit.jpg" alt="" onclick="showImage(this)">
+                    <img src="https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/47/73c9d28be43ee0e01406ac8da234c3b2bb548a35.jpeg" alt="" onclick="showImage(this)">
+                </div>
+                <div class="modal" id="preview">
+                    <i class="gg-close" id="closeModalIcon" onclick="cerrarModal()"></i>
+                </div>                
+                <br>
+                
+            </div>
+
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="Index.html">Acerca de...</a></li>
+                        <li class="nav-item"><a href="portfolio.html">Portafolio</a></li>
+                    </ul>
+                </div>
+            </header>
+            
+            
+            
+        </section>
+    </div>
+    <footer>Autor: Yo </footer>
+    <div id="copyright" style="display: none;">2025.</div>
+
+    <script src="JS/site.js"></script>
+</body>
+</html>
